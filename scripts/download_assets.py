@@ -1,6 +1,12 @@
 """Скачивание необходимых файлов с Google Drive"""
 
 import os
+import sys
+
+# Добавляем корень проекта в путь для импорта configs
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, ROOT_DIR)
+
 import gdown
 
 from configs.config import (
