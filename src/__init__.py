@@ -14,3 +14,5 @@ from .training.trainer import train_model, prepare_training_data
 
 # Функции скачивания
 from scripts.download_assets import download_all, download_bpe_model, download_dense_index
+
+from .inference import FinalRetriever, demo, interactive
