@@ -24,7 +24,7 @@ class FinalRetriever:
         self.reranker = Reranker(reranker_model)
         self.rerank_top_n = rerank_top_n
         
-        print("✓ MARUSYA Retriever готов!")
+        print("Retriever готов!")
     
     @property
     def doc_ids(self):
